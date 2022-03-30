@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.all-content {
+    margin: 0 auto;
+    width: 1070px;
+    padding-top: 30px;
+}
+/* Header section */
+.header {
+    height: 60px;
+    margin-bottom: 100px;
+}
+.logo {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+.nav-header {
+    width: 60%;
+    float: left;
+}
+.nav-block-place {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.navlist-element {
+    display: inline-block;
+    margin-right: 50px;
+    line-height: 60px;
+}
+.navlist-element:last-child {
+    margin-right: 0;
+}
+.element {
+    text-decoration: none;
+    font-size: 15px;
+    color: #696871;
+    font-weight: 700;
+}
+.element-ferst {
+    color: #19191B;
+    font-weight: 700;
+}
+.link-header{
+    width: 20%;
+    float: left;
+}
+.content-link-header {
+    display: inline-block;
+    width: 211px;
+    line-height: 60px;
+    background: #FF7143;
+    border: 2px #FF7143;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.send-header {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+/* Skater section */
+.skater-section {
+    height: 644px;
+    margin-bottom: 100px;
+} 
+.skater-left {
+    width: 50%;
+    float: left;
+}
+.skater-right {
+    width: 50%;
+    float: left;
+}
+.grow {
+    color: #19191B;
+    font-size: 80px;
+    margin-top: 92px;
+}
+.outcome {
+    font-family: 'Mulish', sans-serif;
+    color: #696871;
+    font-size: 20px;
+    width: 459px;
+    margin-bottom: 50px;
+}
+.content-link-skater {
+    display: inline-block;
+    width: 211px;
+    line-height: 60px;
+    background: #5454D4;
+    border: 2px #5454D4;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 40px;
+}
+.send-skater {
+    color: #FFFFFF;
+    font-size: 17px;
+    text-align: center;
+}
+.arrow {
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    height: 60px;
+    width: 60px;
+}
+/* Five logo section */
+.five-logo {
+    margin-bottom: 150px;
+}
+.header-five-logo {
+    display: none;
+}
+.brands-logo {
+   margin: 0;
+   padding: 0;
+}
+.brand-list-element {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  
+}
+/* Botanick section */
+.botanick-section {
+    margin-bottom: 83px;
+}
+.botanick-left {
+    float: left;
+    width: 50%;
+}
+.botanick-right {
+    float: left;
+    width: 50%;
+}
+.subscription {
+    font-size: 50px;
+    color: #19191B;
+    width: 556px;
+    margin-top: 125px; 
+    line-height: 57px;   
+}
+.a-daily {
+    font-size: 20px;
+    color: #696871;
+    line-height: 30px;
+    width: 459px;
+    font-family: 'Mulish', sans-serif;
+}
+.content-link-botanick {
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* Grandfather section */
+.grandfather-section {
+    margin-bottom: 0;
+}
+.grandfather-left {
+    float: left;
+    width: 50%;
+}
+.in {
+    color: #19191B;
+    font-size: 50px;
+    margin-top: 161px;
+    margin-right: 200px;
+    line-height: 57px;
+    width: 556px;
+    padding: 0;
+}
+.accurate {
+    line-height: 30px;
+    font-size: 20px;
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+    width: 459px;
+}
+.content-link-grandfather {
+    text-decoration: none;
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+}
+.grandfather-right {
+    float: right;
+    width: 40%;
+} 
+  /* Audit section */
+.audit-section {
+    
+    margin-bottom: 185px;
+}
+.audit-list {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 185px;
+    padding: 0;
+}
+.audit-items-place {
+    float: left;
+    width: 33%;
+}
+.item {
+    
+    margin: 0;
+    width: 114px;
+    height: 64px;
+}
+.item-name {
+    margin-top: 120px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #19191B;
+    text-align: center;
+    
+}
+.item-desripption {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    width: 307px;
+    text-align: center;
+}
